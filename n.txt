@@ -1,0 +1,109 @@
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-01-01 23:49 CET
+Nmap scan report for 192.168.0.18
+Host is up (0.037s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+5357/tcp open  wsdapi
+MAC Address: 30:52:CB:5A:20:3B (Liteon Technology)
+
+Nmap scan report for 192.168.0.22
+Host is up (0.039s latency).
+All 1000 scanned ports on 192.168.0.22 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: DA:1A:30:19:DA:74 (Unknown)
+
+Nmap scan report for 192.168.0.28
+Host is up (0.036s latency).
+All 1000 scanned ports on 192.168.0.28 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: EA:75:F6:31:7C:CE (Unknown)
+
+Nmap scan report for 192.168.0.33
+Host is up (0.0076s latency).
+All 1000 scanned ports on 192.168.0.33 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 9C:28:41:07:F3:53 (Unknown)
+
+Nmap scan report for 192.168.0.36
+Host is up (0.00045s latency).
+Not shown: 995 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+1042/tcp open  afrog
+1043/tcp open  boinc
+5357/tcp open  wsdapi
+MAC Address: 3C:9C:0F:8D:47:DA (Intel Corporate)
+
+Nmap scan report for 192.168.0.38
+Host is up (0.0091s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT      STATE SERVICE
+62078/tcp open  iphone-sync
+MAC Address: FA:1A:BB:0F:7B:4C (Unknown)
+
+Nmap scan report for 192.168.0.41
+Host is up (0.0051s latency).
+Not shown: 981 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+80/tcp    open   http
+554/tcp   open   rtsp
+5000/tcp  open   upnp
+5001/tcp  closed commplex-link
+6000/tcp  closed X11
+6003/tcp  closed X11:3
+6004/tcp  closed X11:4
+7000/tcp  closed afs3-fileserver
+7100/tcp  closed font-service
+8080/tcp  open   http-proxy
+8100/tcp  open   xprint-server
+9080/tcp  closed glrpc
+20000/tcp closed dnp
+20005/tcp closed btx
+20031/tcp closed unknown
+20221/tcp closed unknown
+20222/tcp closed ipulse-ics
+20828/tcp closed unknown
+21571/tcp closed unknown
+MAC Address: 34:27:92:96:45:78 (Freebox SAS)
+
+Nmap scan report for 192.168.0.42
+Host is up (0.0063s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+515/tcp  open  printer
+631/tcp  open  ipp
+9100/tcp open  jetdirect
+MAC Address: 1C:BF:C0:81:25:26 (Chongqing Fugui Electronics)
+
+Nmap scan report for 192.168.0.254
+Host is up (0.0053s latency).
+Not shown: 894 filtered tcp ports (no-response), 90 filtered tcp ports (port-unreach)
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+53/tcp   open   domain
+80/tcp   open   http
+139/tcp  closed netbios-ssn
+443/tcp  open   https
+445/tcp  open   microsoft-ds
+548/tcp  closed afp
+554/tcp  open   rtsp
+1723/tcp closed pptp
+5000/tcp closed upnp
+5001/tcp closed commplex-link
+5357/tcp open   wsdapi
+5678/tcp open   rrac
+6000/tcp closed X11
+8090/tcp open   opsmessaging
+9091/tcp open   xmltec-xmlmail
+MAC Address: 70:FC:8F:51:26:58 (Freebox SAS)
+
+Nmap scan report for 192.168.0.15
+Host is up (0.0000020s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 256 IP addresses (10 hosts up) scanned in 195.25 seconds
